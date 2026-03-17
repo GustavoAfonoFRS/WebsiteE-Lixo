@@ -1,0 +1,21 @@
+Erro de Argumentos/JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) | Dados: {\
+[Antigravity Test] Sucesso: Email enviado para gustavot22221@gmail.com
+[2026-03-11 11:12:39] Para: gustavoafonso706@gmail.com | Assunto: Valide a sua conta - E-Lixo Zero | Mensagem: <h1>Bem-vindo ao E-Lixo Zero, gustavo!</h1>
+                  <p>Por favor, clique no link abaixo para validar o seu endereço de e-mail e ativar a sua conta:</p>
+                  <p><a href='http://localhost/website/elixo-zero/validar_email.php?token=e41a3d6333664e1e96113ae763fd15c19003ddcd2effa98a6680859898009801'>http://localhost/website/elixo-zero/validar_email.php?token=e41a3d6333664e1e96113ae763fd15c19003ddcd2effa98a6680859898009801</a></p>
+                  <p>Se não se registou no nosso site, ignore este e-mail.</p>
+[2026-03-11 13:56:27] Sucesso: Email real enviado para gustavot22221@gmail.com | Assunto: Teste Antigravity
+[2026-03-11 15:02:43] Chamando script para: gustavoafonso706@gmail.com | Assunto: Novo Ponto de Recolha Adicionado: Ponto Teste Notificacao
+[2026-03-11 14:02:46] Sucesso: Email real enviado para gustavoafonso706@gmail.com | Assunto: Novo Ponto de Recolha Adicionado: Ponto Teste Notificacao
+[2026-03-11 15:07:34] Chamando script para: gustavot22221@gmail.com | Assunto: Valide a sua conta - E-Lixo Zero (Teste)
+[2026-03-11 14:07:38] Sucesso: Email real enviado para gustavot22221@gmail.com | Assunto: Valide a sua conta - E-Lixo Zero (Teste)
+[2026-03-11 15:21:09] Chamando script para: tomas85728@gmail.com | Assunto: Valide a sua conta - E-Lixo Zero
+[2026-03-11 14:21:12] Sucesso: Email real enviado para tomas85728@gmail.com | Assunto: Valide a sua conta - E-Lixo Zero
+[2026-03-12 09:53:45] Chamando script para: tomas85728@gmail.com | Assunto: Código de Verificação - E-Lixo Zero
+[2026-03-12 08:53:47] Sucesso: Email real enviado para tomas85728@gmail.com | Assunto: Código de Verificação - E-Lixo Zero
+[2026-03-12 10:05:42] Preparando envio para: gustavot22221@gmail.com | Assunto: Código de Verificação - E-Lixo Zero (Teste Final)
+[2026-03-12 09:05:44] Sucesso: Email enviado para gustavot22221@gmail.com | Assunto: Código de Verificação - E-Lixo Zero (Teste Final)
+[2026-03-12 10:10:28] Preparando envio para: tomas85728@gmail.com | Assunto: Código de Verificação - E-Lixo Zero
+[2026-03-12 09:10:31] Sucesso: Email enviado para tomas85728@gmail.com | Assunto: Código de Verificação - E-Lixo Zero
+[2026-03-12 10:16:48] Preparando envio para: tomas85728@gmail.com | Assunto: Novo Ponto de Recolha Adicionado: TESTE
+[2026-03-12 09:16:50] Sucesso: Email enviado para tomas85728@gmail.com | Assunto: Novo Ponto de Recolha Adicionado: TESTE
