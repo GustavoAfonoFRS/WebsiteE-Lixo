@@ -1,0 +1,3 @@
+[2026-03-05 14:08:29] [Antigravity Final Test] Sucesso: Email enviado para gustavot22221@gmail.com
+[2026-03-05 14:10:30] [fuck] Sucesso: Email enviado para gustavot22221@gmail.com
+[2026-03-10 14:06:24] [joao] Erro SMTP: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-439dada3b43sm37291109f8f.13 - gsmtp')
