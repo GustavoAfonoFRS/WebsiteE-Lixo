@@ -26,9 +26,7 @@ def import_data():
 
         print(f" Encontrados {len(data['features'])} pontos para importar...")
 
-        query = """INSERT INTO pontos_recolha 
-                   (nome, morada, freguesia, latitude, longitude, tipo_residuo, horario, link_oficial) 
-                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"""
+        query = "INSERT INTO pontos_recolha (nome, morada, freguesia, latitude, longitude, tipo_residuo, horario, link_oficial) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
 
         inserted = 0
         for feature in data['features']:

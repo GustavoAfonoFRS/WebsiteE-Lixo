@@ -37,13 +37,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $assunto = "Código de Verificação - E-Lixo Zero";
         $corpo = "<h1>Bem-vindo ao E-Lixo Zero, $nome!</h1>
                   <p>A sua conta foi pré-registada. Para a ativar, utilize o seguinte código de verificação:</p>
-                  <h2 style='letter-spacing: 5px; background: #f4f4f4; padding: 20px; display: inline-block; border-radius: 10px;'>$token</h2>
+                  <h2 style='letter-spacing: 5px; background: 
                   <p>Introduza este código na página de verificação para concluir o seu registo.</p>";
 
         enviarEmail($email, $assunto, $corpo);
 
         session_start();
-        $_SESSION['verify_email'] = $email; // Guardar email para a página de verificação
+        $_SESSION['verify_email'] = $email; 
         $_SESSION['msg_sucesso'] = "Registo efetuado com sucesso! Introduza o código que enviámos para o seu e-mail.";
         redirect('validar_email.php');
 

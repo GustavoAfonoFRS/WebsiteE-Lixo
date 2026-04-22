@@ -478,7 +478,7 @@ h3 {
     box-shadow: var(--shadow-md);
 }
 
-/* Map sidebar */
+
 .map-sidebar {
     background: var(--white);
     border-right: 1px solid var(--border);

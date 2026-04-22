@@ -86,7 +86,6 @@
 }
 </style>
 
-<!-- ── HERO ──────────────────────────────── -->
 <section class="reee-hero">
     <div class="container text-center">
         <div class="hero-badge reveal d-inline-flex" style="margin-bottom:2rem;">
@@ -108,7 +107,6 @@
     </div>
 </section>
 
-<!-- ── O QUE É REEE ──────────────────────── -->
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row g-5 align-items-center">
@@ -171,7 +169,6 @@
     </div>
 </section>
 
-<!-- ── CATEGORIAS ─────────────────────────── -->
 <section id="categorias" class="py-5" style="background:#f5f5f5; border-top:1px solid #e8e8e8;">
     <div class="container py-4">
         <div class="text-center mb-5 reveal">
@@ -261,7 +258,6 @@
     </div>
 </section>
 
-<!-- ── DADOS & GRÁFICOS ──────────────────── -->
 <section id="dados" class="py-5 bg-white">
     <div class="container py-5">
         <div class="text-center mb-5 reveal">
@@ -272,9 +268,7 @@
             </p>
         </div>
 
-        <!-- Row 1: Donut + Two bars -->
         <div class="row g-4 mb-4">
-            <!-- Donut: tipos equipamento -->
             <div class="col-lg-5 reveal">
                 <div class="chart-card">
                     <span class="impact-tag mb-3 d-inline-block"><i class="fas fa-circle-dot"></i> Portugal 2025</span>
@@ -292,7 +286,6 @@
             </div>
 
             <div class="col-lg-7 d-flex flex-column gap-4">
-                <!-- kg por pessoa -->
                 <div class="chart-card reveal">
                     <span class="impact-tag mb-3 d-inline-block"><i class="fas fa-person"></i> Comparativo</span>
                     <h5 class="fw-bold mb-1 tracking-tight">Lixo Eletrónico por Habitante</h5>
@@ -300,7 +293,6 @@
                     <canvas id="barKgChart" height="120"></canvas>
                 </div>
 
-                <!-- Crescimento Lisboa -->
                 <div class="chart-card dark reveal">
                     <p class="text-uppercase-refined mb-1" style="color:rgba(255,255,255,.3);">Lisboa</p>
                     <div class="d-flex align-items-baseline gap-3 flex-wrap mb-1">
@@ -313,7 +305,6 @@
             </div>
         </div>
 
-        <!-- Row 2: Two line charts -->
         <div class="row g-4 mb-4">
             <div class="col-lg-6 reveal">
                 <div class="chart-card">
@@ -333,7 +324,6 @@
             </div>
         </div>
 
-        <!-- Row 3: Country bar + two pies -->
         <div class="row g-4">
             <div class="col-lg-5 reveal">
                 <div class="chart-card">
@@ -369,7 +359,6 @@
     </div>
 </section>
 
-<!-- ── IMPACTOS & BENEFÍCIOS ─────────────── -->
 <section class="py-5" style="background:#f5f5f5; border-top:1px solid #e8e8e8;">
     <div class="container py-4">
         <div class="text-center mb-5 reveal">
@@ -423,7 +412,6 @@
     </div>
 </section>
 
-<!-- ── CHART.JS ────────────────────────────── -->
 <script>
 (function () {
     const GREEN  = '#2d7a4f';
@@ -450,7 +438,6 @@
         C.defaults.font.family = "'Inter', sans-serif";
         C.defaults.plugins.legend.display = false;
 
-        // 1. Donut — tipos equipamento
         const dc = document.getElementById('donutChart');
         if (dc) {
             const dLabels = ['Grandes Eletrodomésticos','Pequenos Eletrodomésticos','Equip. de Frio','Informática & Telecom','Ecrãs & TV','Lâmpadas & Outros'];
@@ -468,7 +455,6 @@
             buildLegend('donut-legend', dLabels, dColors, dValues);
         }
 
-        // 2. Bar — kg por pessoa (horizontal simples)
         const bk = document.getElementById('barKgChart');
         if (bk) {
             new C(bk, {
@@ -489,7 +475,6 @@
             });
         }
 
-        // 3. Bar — crescimento Lisboa
         const bg = document.getElementById('barGrowthChart');
         if (bg) {
             new C(bg, {
@@ -509,7 +494,6 @@
             });
         }
 
-        // 4. Line — evolução Portugal
         const lp = document.getElementById('linePortugalChart');
         if (lp) {
             new C(lp, {
@@ -529,7 +513,6 @@
             });
         }
 
-        // 5. Line — crescimento global (dark)
         const lg = document.getElementById('lineGlobalChart');
         if (lg) {
             new C(lg, {
@@ -549,7 +532,6 @@
             });
         }
 
-        // 6. Bar — kg por país
         const bc = document.getElementById('barCountryChart');
         if (bc) {
             new C(bc, {
@@ -570,7 +552,6 @@
             });
         }
 
-        // 7. Donut — equipamentos em casa
         const ph = document.getElementById('pieHomeChart');
         if (ph) {
             const hLabels = ['Telemóveis', 'Cabos', 'Computadores', 'Tablets', 'Outros'];
@@ -584,7 +565,6 @@
             buildLegend('home-legend', hLabels, hColors, hValues);
         }
 
-        // 8. Donut — materiais
         const pm = document.getElementById('pieMaterialsChart');
         if (pm) {
             const mLabels = ['Ferro', 'Plástico', 'Alumínio', 'Cobre', 'Metais raros'];

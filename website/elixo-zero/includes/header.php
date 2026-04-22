@@ -12,17 +12,12 @@ include_once 'includes/functions.php';
     <meta name="description" content="Plataforma de reciclagem de resíduos eletrónicos em Lisboa. Encontre pontos de recolha de REEE perto de si.">
     <title>Lisbon E-Waste — Reciclagem Eletrónica em Lisboa</title>
 
-    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
-    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -30,7 +25,6 @@ include_once 'includes/functions.php';
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
 
-        <!-- Brand -->
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
             <div style="
                 width:32px; height:32px;
@@ -45,14 +39,12 @@ include_once 'includes/functions.php';
             <span>LISBON <strong>E-WASTE</strong></span>
         </a>
 
-        <!-- Toggler -->
         <button class="navbar-toggler border-0 shadow-none" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center gap-1">
                 <li class="nav-item"><a class="nav-link" href="index.php">Início</a></li>
@@ -68,7 +60,7 @@ include_once 'includes/functions.php';
                                 display:inline-flex;
                                 align-items:center;
                                 gap:.5rem;
-                                background:#f0f0f0;
+                                background:#f5f5f5;
                                 padding:.35rem .85rem .35rem .5rem;
                                 border-radius:999px;
                                 font-size:.78rem;
@@ -92,7 +84,7 @@ include_once 'includes/functions.php';
                                 <li><a class="dropdown-item" href="admin.php">
                                     <i class="fas fa-sliders me-2 opacity-40"></i>Painel Admin
                                 </a></li>
-                                <li><hr class="dropdown-divider" style="border-color:#f0f0f0;"></li>
+                                <li><hr class="dropdown-divider" style="border-color:#eee;"></li>
                             <?php endif; ?>
                             <li><a class="dropdown-item text-danger" href="logout.php">
                                 <i class="fas fa-arrow-right-from-bracket me-2 opacity-40"></i>Sair

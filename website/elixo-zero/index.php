@@ -1,6 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-
 <section class="hero-section hero-lisbon">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
@@ -28,7 +27,6 @@
     </div>
 </section>
 
-
 <div class="marquee-wrap">
     <div class="marquee-track">
         <?php
@@ -39,7 +37,6 @@
         ?>
     </div>
 </div>
-
 
 <section class="py-5" style="background:#fff; border-bottom:1px solid #ebebeb;">
     <div class="container py-4">
@@ -61,7 +58,6 @@
     </div>
 </section>
 
-
 <section class="py-0 overflow-hidden">
     <div class="row g-0">
         <div class="col-lg-6">
@@ -74,7 +70,7 @@
         </div>
         <div class="col-lg-6 d-flex align-items-center" style="background:#fff;">
             <div class="p-5 p-md-6 py-lg-0" style="max-width:520px; padding: 4rem 5rem;">
-                <p class="text-uppercase-refined mb-3" style="color:#2d7a4f;">O problema</p>
+                <p class="text-uppercase-refined mb-3" style="color:#2d7a4f;">Fundamentos</p>
                 <h2 class="display-5 fw-semibold mb-4 tracking-tight">O que é o<br>Lixo Eletrónico?</h2>
                 <p class="text-muted mb-5" style="font-weight:300; line-height:1.8; font-size:1.05rem;">
                     REEE — Resíduos de Equipamentos Elétricos e Eletrónicos — representam o fluxo de resíduos com maior
@@ -102,7 +98,7 @@
                     </div>
                     <div class="col-6">
                         <div class="d-flex gap-3 align-items-start">
-                            <div class="feature-icon mt-1" style="background:#3a9a64;"><i class="fas fa-leaf"></i></div>
+                            <div class="feature-icon mt-1" style="background:#080808;"><i class="fas fa-leaf"></i></div>
                             <div>
                                 <h6 class="fw-bold mb-1">CO₂ Zero</h6>
                                 <p class="small text-muted mb-0">Reduz emissões por produto.</p>
@@ -129,9 +125,8 @@
     </div>
 </section>
 
-
 <section
-    style="background: linear-gradient(135deg, #1a4d30 0%, #2d7a4f 50%, #3a9a64 100%); padding:80px 0; position:relative; overflow:hidden;">
+    style="background: linear-gradient(135deg, #1a4d30, #2d7a4f); position:relative; padding:100px 0; overflow:hidden;">
     <div
         style="position:absolute;inset:0; background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px); background-size:50px 50px; pointer-events:none;">
     </div>
@@ -142,8 +137,8 @@
                     style="font-size:.72rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.45);">
                     Porque importa</p>
                 <h2 class="fw-bold mb-4 tracking-tight"
-                    style="color:#fff; font-size:clamp(1.8rem,4vw,3rem); line-height:1.1;">
-                    Uma tonelada de telemóveis contém <span style="color:#a8f5c8;">mais ouro</span> do que uma tonelada
+                    style="color:#fff;">
+                    Uma tonelada de telemóveis contém <span style="color:#6effa0;">mais ouro</span> do que uma tonelada
                     de minério.
                 </h2>
                 <p style="color:rgba(255,255,255,.6); font-size:1.05rem; font-weight:300; max-width:500px;">
@@ -156,8 +151,7 @@
                     <div class="col-6">
                         <div
                             style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15); border-radius:20px; padding:2rem 1rem; backdrop-filter:blur(10px);">
-                            <div style="font-size:2.2rem; font-weight:900; color:#a8f5c8; letter-spacing:-.04em;">50%
-                            </div>
+                            <div style="font-size:2.2rem; font-weight:900; color:#fff;">50%</div>
                             <p
                                 style="font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); margin:0;">
                                 Ferro recuperável</p>
@@ -166,8 +160,7 @@
                     <div class="col-6">
                         <div
                             style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15); border-radius:20px; padding:2rem 1rem; backdrop-filter:blur(10px);">
-                            <div style="font-size:2.2rem; font-weight:900; color:#a8f5c8; letter-spacing:-.04em;">7%
-                            </div>
+                            <div style="font-size:2.2rem; font-weight:900; color:#6effa0;">21%</div>
                             <p
                                 style="font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); margin:0;">
                                 Cobre valioso</p>
@@ -176,8 +169,7 @@
                     <div class="col-6">
                         <div
                             style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15); border-radius:20px; padding:2rem 1rem; backdrop-filter:blur(10px);">
-                            <div style="font-size:2.2rem; font-weight:900; color:#a8f5c8; letter-spacing:-.04em;">13%
-                            </div>
+                            <div style="font-size:2.2rem; font-weight:900; color:#fff;">13%</div>
                             <p
                                 style="font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); margin:0;">
                                 Alumínio</p>
@@ -186,8 +178,7 @@
                     <div class="col-6">
                         <div
                             style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15); border-radius:20px; padding:2rem 1rem; backdrop-filter:blur(10px);">
-                            <div style="font-size:2.2rem; font-weight:900; color:#a8f5c8; letter-spacing:-.04em;">9%
-                            </div>
+                            <div style="font-size:2.2rem; font-weight:900; color:#6effa0;">9%</div>
                             <p
                                 style="font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); margin:0;">
                                 Metais raros</p>
@@ -199,12 +190,11 @@
     </div>
 </section>
 
-
 <section class="py-0 overflow-hidden">
     <div class="row g-0">
-        <div class="col-lg-6 d-flex align-items-center order-lg-1 order-2" style="background:#f5f5f5;">
+        <div class="col-lg-6 d-flex align-items-center order-lg-1 order-2" style="background:#fff;">
             <div class="p-5 p-md-6 py-lg-0" style="max-width:520px; padding: 4rem 5rem;">
-                <p class="text-uppercase-refined mb-3" style="color:#2d7a4f;">Como Funciona</p>
+                <p class="text-uppercase-refined mb-3" style="color:#2d7a4f;">Passo a passo</p>
                 <h2 class="display-5 fw-semibold mb-4 tracking-tight">Três passos.<br>Zero complexidade.</h2>
                 <div class="d-flex flex-column gap-4 mt-4">
                     <?php
@@ -236,20 +226,19 @@
         <div class="col-lg-6 order-lg-2 order-1">
             <div style="height:600px; overflow:hidden; position:relative;">
                 <img src="beautiful-garden.webp" alt="Jardim Lisboa" style="width:100%; height:100%; object-fit:cover;">
-                <div style="position:absolute;inset:0; background:linear-gradient(to left, transparent 60%, #f5f5f5);">
+                <div style="position:absolute;inset:0; background:linear-gradient(to left, transparent 60%, #fff);">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
 <section class="py-0 position-relative overflow-hidden" style="min-height:500px;">
     <img src="lisbon-from-above.jpg" alt="Lisboa do ar"
         style="width:100%; height:500px; object-fit:cover; object-position:center 40%; filter:brightness(.6);">
     <div
         style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(8,8,8,.45);">
-        <div class="text-center reveal" style="color:#fff; padding:2rem;">
+        <div class="text-center reveal" style="color:#fff;">
             <p
                 style="font-size:.72rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:rgba(255,255,255,.5); margin-bottom:1rem;">
                 Faça parte da mudança</p>
@@ -263,7 +252,7 @@
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="registo.php" class="btn px-5 py-3 fw-bold"
-                    style="background:#2d7a4f; color:#fff; border-radius:999px;">Criar Conta Grátis</a>
+                    style="background:#fff; color:#080808; border-radius:999px;">Registar Agora</a>
                 <a href="mapa.php" class="btn btn-outline-white px-5 py-3">Ver Mapa</a>
             </div>
         </div>
@@ -307,7 +296,6 @@
         z-index: 2;
         text-align: center;
     }
-
 
     .feature-icon {
         transition: transform .3s ease;

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ── NAVBAR SCROLL EFFECT ─────────────────────────────────────────
+    
     const navbar = document.querySelector('.navbar');
     if (navbar) {
         const handleScroll = () => {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.addEventListener('scroll', handleScroll, { passive: true });
     }
 
-    // ── REVEAL ON SCROLL (IntersectionObserver) ────────────────────
+    
     const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');
     if (revealEls.length) {
         const observer = new IntersectionObserver((entries) => {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         revealEls.forEach(el => observer.observe(el));
     }
 
-    // ── CURSOR SPOTLIGHT (desktop only) ─────────────────────────────
+    
     const spotlight = document.getElementById('spotlight');
     if (spotlight && window.innerWidth > 768) {
         let visible = false;
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ── COUNTER ANIMATION (stats section) ───────────────────────────
+    
     const counters = document.querySelectorAll('.stat-number');
     if (counters.length) {
         const countObserver = new IntersectionObserver((entries) => {
@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const tick = (now) => {
                     const progress = Math.min((now - start) / duration, 1);
-                    const ease = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+                    const ease = 1 - Math.pow(1 - progress, 3); 
                     const current = end * ease;
 
-                    // format similar to original
+                    
                     if (text.includes('M')) {
                         el.textContent = Math.round(current) + suffix;
                     } else {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         counters.forEach(el => countObserver.observe(el));
     }
 
-    // ── HERO PARALLAX (subtle) ───────────────────────────────────────
+    
     const heroSection = document.querySelector('.hero-section');
     if (heroSection) {
         window.addEventListener('scroll', () => {
@@ -91,14 +91,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }, { passive: true });
     }
 
-    // ── MAP INITIALIZATION ──────────────────────────────────────────
+    
     if (document.getElementById('map')) {
         const map = L.map('map', { zoomControl: false }).setView([38.7223, -9.1393], 13);
 
-        // Custom zoom control position
+        
         L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-        // Grayscale tile layer
+        
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             maxZoom: 19
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         loadMarkers();
 
-        // Filter form
+        
         const filterForm = document.getElementById('filterForm');
         if (filterForm) {
             filterForm.onsubmit = function (e) {

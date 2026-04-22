@@ -27,12 +27,10 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == 1) {
 include 'includes/header.php';
 ?>
 
-<div class="container-fluid p-0" style="background:#f5f5f5; min-height:calc(100vh - 130px);">
+<div class="container-fluid p-0" style="background:#fff;">
     <div class="row g-0" style="height:calc(100vh - 130px);">
 
-
         <div class="col-lg-3 map-sidebar p-4 d-flex flex-column">
-
 
             <div class="mb-4">
                 <p class="text-uppercase-refined mb-1">Explorar</p>
@@ -44,7 +42,7 @@ include 'includes/header.php';
                     <label class="text-uppercase-refined d-block mb-2">Pesquisa</label>
                     <div class="position-relative">
                         <i class="fas fa-magnifying-glass position-absolute"
-                            style="left:1rem; top:50%; transform:translateY(-50%); color:#aaa; font-size:.8rem; pointer-events:none;"></i>
+                            style="left:1rem; top:50%; transform:translateY(-50%); color:#aaa;"></i>
                         <input type="text" id="search" name="search" class="form-control ps-4"
                             placeholder="Nome ou morada...">
                     </div>
@@ -85,17 +83,16 @@ include 'includes/header.php';
                 </div>
             </form>
 
-
             <div id="resultsInfo" class="mt-4 pt-4 border-top d-none"
                 style="flex-shrink:0; overflow:hidden; display:flex; flex-direction:column;">
                 <p class="text-uppercase-refined mb-2">
                     <span id="count">0</span> locais encontrados
                 </p>
                 <div id="listResults" class="overflow-auto flex-grow-1"
-                    style="max-height:300px; scrollbar-width:thin; scrollbar-color:#ddd transparent;"></div>
+                    style="max-height:300px; scrollbar-width:thin; scrollbar-color:#ebebeb transparent;">
+                </div>
             </div>
         </div>
-
 
         <div class="col-lg-9 p-4">
             <div id="map" class="h-100"></div>

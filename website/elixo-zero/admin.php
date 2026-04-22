@@ -4,7 +4,7 @@ if (!isLoggedIn())
     redirect('login.php');
 ?>
 
-<section class="py-5 min-vh-100" style="background:#f5f5f5; border-top:1px solid #e8e8e8;">
+<section class="py-5 min-vh-100" style="background:#f5f5f5;">
     <div class="container py-lg-4">
 
         <?php if (isset($_GET['status'])): ?>
@@ -35,7 +35,6 @@ if (!isLoggedIn())
                 </a>
             </div>
         </div>
-
 
         <h2 class="fw-semibold mb-4 h4">Pontos de Recolha</h2>
         <div class="card border-0 shadow-sm p-2 mb-5 overflow-hidden" style="border-radius: 30px;">
@@ -77,7 +76,6 @@ if (!isLoggedIn())
                 </table>
             </div>
         </div>
-
 
         <h2 id="mensagens" class="fw-semibold mb-4 h4">Mensagens Recebidas</h2>
         <div class="card border-0 shadow-sm p-2 mb-5 overflow-hidden" style="border-radius: 30px;">
@@ -126,7 +124,6 @@ if (!isLoggedIn())
         </div>
     </div>
 </section>
-
 
 <div class="modal fade" id="addPointModal" tabindex="-1">
     <div class="modal-dialog modal-lg">

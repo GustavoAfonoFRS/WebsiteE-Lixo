@@ -18,16 +18,7 @@ def send_email(nome, email, assunto, mensagem):
     msg['To'] = receiver_email
     msg['Subject'] = f"Novo Contacto: {assunto}"
 
-    body = f"""
-    Novo contacto recebido através do site:
-    
-    Nome: {nome}
-    E-mail do Remetente: {email}
-    Assunto: {assunto}
-    
-    Mensagem:
-    {mensagem}
-    """
+    body = f"Nome: {nome}\nEmail: {email}\n\nMensagem:\n{mensagem}"
     
     msg.attach(MIMEText(body, 'plain'))
 
